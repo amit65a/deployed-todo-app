@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "if-env TYPE=Server && (cd Server && npm install) || (cd client && npm install)",
-    "server": "node ./server/server.js",
-    "client": "cd client && npm start"
+    "build": "if-env TYPE=Server && (cd Server && npm install) || (cd Client && npm install)",
+    "server": "node ./Server/server.js",
+    "client": "cd Client && npm start"
   },
   "author": "",
   "license": "ISC",
