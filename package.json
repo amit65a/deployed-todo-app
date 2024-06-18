@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "if-env TYPE=Server && (cd Server && npm install) || (cd Client && npm install)",
-    "server": "cd Server && node server.js",
+    "server": "node Server/server.js",
     "client": "cd Client && npm start"
   },
   "author": "",
